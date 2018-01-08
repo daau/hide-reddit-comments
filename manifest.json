@@ -7,9 +7,9 @@
     "content_scripts": [
         {
           "matches": ["*://*.reddit.com/*"],
-          "js": ["script.js"],
-        //   "run_at": "document_start"
-            "run_at": "document_end"
+        //   "js": ["script.js"],
+          "css": ["styles.css"],
+          "run_at": "document_end"
         }
     ],    
     "icons": {
