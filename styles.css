@@ -1,3 +1,7 @@
 li.first {
   display: none !important;
 }
+
+li.share {
+  padding-left: 0 !important;
+}
