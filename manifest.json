@@ -2,8 +2,7 @@
     "manifest_version": 2,
     "name": "Hide Reddit Comments",
     "description": "This extension hides the links to comments on Reddit.com.",
-    "version": "0.1", // Beta
-    // "background": { "scripts": ["script.js"] },
+    "version": "1.0",
     "content_scripts": [
         {
           "matches": ["*://*.reddit.com/*"],
