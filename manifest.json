@@ -1,20 +1,19 @@
 {
     // Required information
-    "manifest_version": 1,
+    "manifest_version": 2,
     "name": "Hide Reddit Comments",
     "version": "0.1",
 
     // General information
-    "default_locale": "en",
     "description": "This extension hides the links to comments on Reddit.com.",
-    "icons": {}, //TBD...
+    "icons": {
+        "16": "icon.png"
+    }, //TBD...
 
     // Actions TBD
     "browser_action": {
         "default_icon": "icon.png"
     },
-
-    "page_action": {},
     
     // Additional information
     "permissions": [
